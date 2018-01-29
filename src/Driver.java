@@ -4,8 +4,19 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.util.Random;
+//simport java.util.Random;
 
+/**
+ * This is the main method/driver of the program.
+ * The driver initializes an integer key value for encryption.
+ * Random numbers from 1 to 26 (or 0 to 25) may be used instead.
+ * 
+ * The input file for encryption is "in.txt" and the encrypted output
+ * is "out.txt". A testing file called "test.txt" is used to test
+ * or verify the functionality of the encrypt method.
+ * 
+ * @author Joseph
+ */
 public class Driver {
     public static void main(String[] args) throws Exception {
         //Random r = new Random();
