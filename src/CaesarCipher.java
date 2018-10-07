@@ -35,7 +35,10 @@ public class CaesarCipher {
      * @param key               type integer 
      */
     public CaesarCipher(int key) {
-        this.key = key;
+        if (key < 0){
+            key = key * -1;
+        }
+        this.key = key % 26;
     }
 
     /**
